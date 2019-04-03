@@ -13,7 +13,10 @@ Docker Hub : https://hub.docker.com/r/epicblox/node-piface/
  - Live update of inputs and outputs
 
 ## TODO :
- - write REST doc
+ 
+ ### Set Output
+ POST /api/v1/output/set
+ application/json {"piface": "0", "pin": "0", "state": false }
 
 ## Run :
  - ```sudo modprobe spi-bcm2835``` (or enable SPI from raspi-config)
